@@ -57,6 +57,7 @@
             this.lstWordList.TabIndex = 0;
             this.lstWordList.Click += new System.EventHandler(this.lstWordList_Click);
             this.lstWordList.SelectedIndexChanged += new System.EventHandler(this.lstWordList_SelectedIndexChanged);
+            this.lstWordList.DoubleClick += new System.EventHandler(this.lstWordList_DoubleClick);
             // 
             // sssWord
             // 

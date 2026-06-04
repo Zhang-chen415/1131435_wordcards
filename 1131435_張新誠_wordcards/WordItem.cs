@@ -27,6 +27,13 @@ namespace _1131435_張新誠_wordcards
                 Explain = string.Join(Environment.NewLine, strLists.Skip(3));
             }
         }
+        public string ToLineString()
+        {
+            // 將 Explain 屬性中的換行符號替換為\t，以便在字串中顯示。
+            string strExplain = Explain.Replace(Environment.NewLine, "\t");
+            // 將 WordItem 物件轉換為字串
+            return $"{Word}\t{Phonogram}\t{SoundPath}\t{strExplain}";
+        }
         /// <summary>
         /// 覆寫 ToString() 可將物件自動轉換為字串
         /// </summary>
