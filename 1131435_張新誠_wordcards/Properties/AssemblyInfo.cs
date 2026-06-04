@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // 組件的一般資訊是由下列的屬性集控制。
 // 變更這些屬性的值即可修改組件的相關
 // 資訊。
-[assembly: AssemblyTitle("1131435_張新誠_wordcards")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("TSV資料檔讀取")]
+[assembly: AssemblyDescription("視窗程式設計二 上課範例")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("1131435_張新誠_wordcards")]
-[assembly: AssemblyCopyright("Copyright ©  2026")]
+[assembly: AssemblyCompany("元智大學資工系")]
+[assembly: AssemblyProduct("TSV資料檔讀取")]
+[assembly: AssemblyCopyright("Copyright ©  2026 by Kun Chen")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
